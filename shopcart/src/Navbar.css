@@ -1,0 +1,16 @@
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .cart-link {
+    color: white;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .cart-link i {
+    margin-right: 5px;
+  }
+  

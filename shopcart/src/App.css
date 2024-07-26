@@ -1,0 +1,83 @@
+.App {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.product-row {
+  border-bottom: 1px solid #dee2e6;
+  padding: 10px 0;
+}
+
+.product-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-actions button {
+  margin: 0 5px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quantity-display {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.quantity-display::before {
+  content: "Quantity: ";
+  margin-right: 5px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text-dark {
+  font-weight: bold;
+}
+
+.Modal-body img {
+  display: block;
+  margin: 0 auto;
+}
+
+.Modal-body p {
+  text-align: center;
+}
+
+.cart-item {
+  border-bottom: 1px solid #dee2e6;
+  padding: 10px 0;
+}
+/* Add any additional styling for the CheckOut component here */
+.CheckOut {
+  margin-top: 20px;
+}
+
+.CheckOut button {
+  margin-top: 10px;
+}
+
